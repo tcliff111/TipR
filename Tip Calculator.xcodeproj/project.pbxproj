@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		460364401C139530004DA8AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603643F1C139530004DA8AA /* AppDelegate.swift */; };
-		460364421C139530004DA8AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460364411C139530004DA8AA /* ViewController.swift */; };
 		460364451C139530004DA8AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460364431C139530004DA8AA /* Main.storyboard */; };
 		460364471C139530004DA8AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460364461C139530004DA8AA /* Images.xcassets */; };
 		4603644A1C139530004DA8AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460364481C139530004DA8AA /* LaunchScreen.xib */; };
 		460364561C139530004DA8AA /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460364551C139530004DA8AA /* Tip_CalculatorTests.swift */; };
+		464278911C276BDA003ED691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460364411C139530004DA8AA /* ViewController.swift */; };
+		464278931C276BEA003ED691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603643F1C139530004DA8AA /* AppDelegate.swift */; };
 		46F051AA1C17FB430049B708 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F051A91C17FB430049B708 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -217,8 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460364421C139530004DA8AA /* ViewController.swift in Sources */,
-				460364401C139530004DA8AA /* AppDelegate.swift in Sources */,
+				464278931C276BEA003ED691 /* AppDelegate.swift in Sources */,
+				464278911C276BDA003ED691 /* ViewController.swift in Sources */,
 				46F051AA1C17FB430049B708 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
