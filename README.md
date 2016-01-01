@@ -4,7 +4,7 @@ TipR is a tip calculator application for iOS.
 
 Submitted by: Thomas Clifford
 
-Time spent: 4 hours spent in total
+Time spent: 8-10 hours spent in total
 
 ## User Stories
 
@@ -14,17 +14,24 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [x] Settings page to change the default tip percentage.
-* [ ] UI animations
+* [x] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+The following **additional** features are implemented:
+
+- [x] Added labels and icons to represent the dollar cost of splitting the check between 2, 3, and 4 people
+- [x] Added custom launchscreen and changed UI design
 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-[Walthrough] (http://imgur.com/kIONccs)
+[Walkthrough for v 1.1] (http://imgur.com/6ffiQXp)
+
+[Walkthrough for v 1.0] (http://imgur.com/kIONccs)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -33,9 +40,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 The main challenge of this excerise was figuring out how to use and unwrap optionals in Swift.  Additionally, 
 figuring out how to use data from other views was challenging.
 
+
 ## License
 
-Copyright 2015 Thomas Clifford
+Copyright 2016 Thomas Clifford
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
