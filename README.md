@@ -30,6 +30,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 [Walkthrough for v 1.1] (http://imgur.com/6ffiQXp)
+
 [v1.1 Regional Currency Example] (http://imgur.com/BuDyeob)
 
 [Walkthrough for v 1.0] (http://imgur.com/kIONccs)
