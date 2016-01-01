@@ -1,8 +1,5 @@
 # Xcode
 #
-<<<<<<< HEAD
-build/
-=======
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## Build generated
@@ -10,7 +7,6 @@ build/
 DerivedData
 
 ## Various settings
->>>>>>> e1759584e6578d84f341aa8e5317c5b3377d103e
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -20,14 +16,6 @@ DerivedData
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
-<<<<<<< HEAD
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-=======
 
 ## Other
 *.xccheckout
@@ -39,22 +27,11 @@ DerivedData
 *.hmap
 *.ipa
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-.build/
->>>>>>> e1759584e6578d84f341aa8e5317c5b3377d103e
-
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
-<<<<<<< HEAD
-# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
-=======
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
->>>>>>> e1759584e6578d84f341aa8e5317c5b3377d103e
 #
 # Pods/
 
@@ -64,8 +41,6 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
-<<<<<<< HEAD
-=======
 
 # fastlane
 #
@@ -76,4 +51,3 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
->>>>>>> e1759584e6578d84f341aa8e5317c5b3377d103e
