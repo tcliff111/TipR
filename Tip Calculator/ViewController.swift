@@ -19,14 +19,14 @@ class ViewController: UIViewController {
     var key1 = "firstKey"
     var key2 = "secondKey"
     var key3 = "thirdKey"
+    var closeKey = "closingKey"
     var percentages = [Double]()
-
-
+    var openingTime: NSDate? = nil
+    var closingTime: NSDate? = nil
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+
+    func reset() {
+        billField.text=""
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
         let defaults = NSUserDefaults.standardUserDefaults()
@@ -40,10 +40,38 @@ class ViewController: UIViewController {
         percentButton.setTitle("18%", forSegmentAtIndex: 0)
         percentButton.setTitle("20%", forSegmentAtIndex: 1)
         percentButton.setTitle("22%", forSegmentAtIndex: 2)
-
+    }
+//    func compareTimes(opens: NSDate?, closes: NSDate?) {
+//        if(opens!.timeIntervalSinceReferenceDate-closes!.timeIntervalSinceReferenceDate>10) {
+//            reset()
+//        }
+//    }
+//    func openApp() {
+//        openingTime = NSDate()
+//        let defaults = NSUserDefaults.standardUserDefaults()
+//        closingTime = defaults.objectForKey(closeKey) as! NSDate?
+//        if (closingTime != nil) {
+//            print("did")
+//            compareTimes(openingTime, closes: closingTime)
+//        }
+//        print("opened")
+//    }
+//    
+//    func closeApp() {
+//        closingTime = NSDate()
+//        let defaults = NSUserDefaults.standardUserDefaults()
+//        defaults.setObject(closingTime, forKey: closeKey)
+//        print("closeed")
+//    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        reset()
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+
         
         let defaults = NSUserDefaults.standardUserDefaults()
         let first:Int? = Int(defaults.objectForKey(key1) as! String)
@@ -81,6 +109,7 @@ class ViewController: UIViewController {
         }
 
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
