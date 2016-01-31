@@ -29,7 +29,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Walkthrough for v 1.1] (http://imgur.com/6ffiQXp)
+Walkthrough for v 1.1
+<a href="http://imgur.com/6ffiQXp"><img src="http://i.imgur.com/6ffiQXp.gif" title="source: imgur.com" /></a>
+
 
 [v1.1 Regional Currency Example] (http://imgur.com/BuDyeob)
 
