@@ -29,13 +29,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-Walkthrough for v 1.1
+Walkthrough for v 1.1 <br />
 <a href="http://imgur.com/6ffiQXp"><img src="http://i.imgur.com/6ffiQXp.gif" title="source: imgur.com" /></a>
 
 
-[v1.1 Regional Currency Example] (http://imgur.com/BuDyeob)
+v1.1 Regional Currency Example <br />
+<a href="http://imgur.com/BuDyeob"><img src="http://i.imgur.com/BuDyeob.gif" title="source: imgur.com" /></a>
 
-[Walkthrough for v 1.0] (http://imgur.com/kIONccs)
+Walkthrough for v 1.0 <br />
+<a href="http://imgur.com/kIONccs"><img src="http://i.imgur.com/kIONccs.gif" title="source: imgur.com" /></a>
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
